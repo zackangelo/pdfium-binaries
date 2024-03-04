@@ -17,6 +17,7 @@ mkdir -p "$BUILD"
   echo "target_os = \"$OS\""
   echo "pdf_enable_v8 = $ENABLE_V8"
   echo "pdf_enable_xfa = $ENABLE_V8"
+  echo 'pdf_is_complete_lib = true'
   echo "treat_warnings_as_errors = false"
   echo "is_component_build = false"
 

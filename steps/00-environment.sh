@@ -2,6 +2,8 @@
 
 ENV_FILE=${GITHUB_ENV:-.env}
 
+LDFLAGS="-static-libgcc -static-libstdc++"
+
 # Input
 cat >>"$ENV_FILE" <<END
 PDFium_SOURCE_DIR=$PWD/pdfium
